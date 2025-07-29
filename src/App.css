@@ -1,0 +1,102 @@
+.price{
+    height: 20px;
+    text-align: left;
+    float: left;
+    
+   
+}
+.discount{
+    text-align: right;
+    
+    
+    
+    
+}
+.brand{
+ text-align: center;   
+ border: 1px solid black;
+ border-radius: 20px;
+ 
+
+}
+
+.stock{
+    float: left;
+    font-size: large;
+}
+
+.flogo{
+    height: 100px;
+}
+.child{
+    list-style: none;
+    background-color:#fff;
+    padding: 8px 20px 10px 6px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+    
+    border-radius: 12px;
+    margin-left: 10px;
+    
+
+}
+.menu > .menu-item:hover .child{
+display: block;
+
+}
+.heading1{
+    color: purple;
+}
+
+.pf{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.pf:hover{
+    color: blue;
+    font-style: italic;
+}
+
+
+
+.ct{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ct:hover{
+    color: blue;
+    font-style: italic;
+}
+.wt{
+      text-align: center;
+    margin-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wt:hover{
+     color: blue;
+    font-style: italic;
+    
+}
+.sc > input{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+}
+.sc > input::placeholder{
+    font-size: 13px;
+
+}
+.home{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.about{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.category{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.sg{
+    border-radius: 0px 20px 20px 0px;
+}
