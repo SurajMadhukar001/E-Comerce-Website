@@ -1,3 +1,4 @@
+import footerimage from "../assets/lo.jpg.png"
 const FooterComponent = () => {
   return (
     <>
@@ -5,7 +6,7 @@ const FooterComponent = () => {
         <div className="container ">
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12">
-              <img className="flogo" src="lo.jpg.png" alt="#" />
+              <img src={footerimage} alt="#"  height={100} />
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

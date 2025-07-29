@@ -25,9 +25,7 @@
     font-size: large;
 }
 
-.flogo{
-    height: 100px;
-}
+
 .child{
     list-style: none;
     background-color:#fff;
@@ -87,6 +85,9 @@ display: block;
 .sc > input::placeholder{
     font-size: 13px;
 
+}
+.sc{
+    max-width: 550px;
 }
 .home{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

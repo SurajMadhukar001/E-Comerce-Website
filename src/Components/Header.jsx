@@ -24,7 +24,7 @@ const HeaderComponent = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarScroll">
-            <ul className="navbar-nav ms-4 mb-2 mb-lg-0">
+            <ul className="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
                 <Link className="nav-link home" aria-current="page" to="/">
                   Home
@@ -43,10 +43,10 @@ const HeaderComponent = () => {
               
             </ul>
 
-            <div className="input-group w-50 ms-auto me-auto sc">
+            <div className="input-group ms-auto me-auto sc">
               <input
                 type="text"
-                class="form-control"
+                className="form-control w-50"
                 id="autoSizingInputGroup"
                 placeholder="Try Saree,Kurti or Search by Product Code"
               />
