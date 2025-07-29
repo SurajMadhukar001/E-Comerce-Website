@@ -98,5 +98,5 @@ display: block;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .sg{
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 20px 20px 0px !important;
 }
