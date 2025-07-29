@@ -43,7 +43,7 @@ const HeaderComponent = () => {
               
             </ul>
 
-            <div className="input-group ms-auto me-auto sc">
+            <div className="input-group ms-auto me-2 sc">
               <input
                 type="text"
                 className="form-control w-50"
@@ -63,7 +63,7 @@ const HeaderComponent = () => {
                 </svg>
               </div>
             </div>
-            <div className="pf mt-1 ms-auto me-4">
+            <div className="pf mt-1 ms-auto me-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -76,7 +76,7 @@ const HeaderComponent = () => {
               </svg>
               <p>Profile</p>
             </div>
-            <div className="ct mt-1 me-4">
+            <div className="ct mt-1 me-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
