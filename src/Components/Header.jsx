@@ -1,6 +1,7 @@
 // import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import headerbanner from "../assets/hb.jpg";
+import headerimage from "../assets/lo.jpg.png"
 
 const HeaderComponent = () => {
   //calling store
@@ -8,8 +9,8 @@ const HeaderComponent = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-light sticky-top">
-        <div className="container-fluid">
-          <img className="logo" src="lo.jpg.png" height={100} />
+        <div className="container-xxl">
+          <img className="logo" src={headerimage} height={100} />
 
           <button
             className="navbar-toggler"
