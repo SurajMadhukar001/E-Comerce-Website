@@ -80,7 +80,7 @@ const SignUp = () => {
       <div className="container mt-5 mb-5">
         <div className="row justify-content-center">
           <div className="col-lg-4">
-            <div className="card p-3">
+            <div className="card p-3 bgimage2">
               <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                   <label htmlFor="exampleInputname" class="form-label">
@@ -166,13 +166,14 @@ const SignUp = () => {
                     value={contact}
                   />
                 </div>
-
-                <button
-                  type="submit"
-                  className="btn btn-outline-warning w-100 btn-sm"
-                >
-                  Register Now
-                </button>
+                <div className="w-100 text-center">
+                  <button
+                    type="submit"
+                    className="btn btn-outline-dark w-75 rounded-5"
+                  >
+                    Register Now
+                  </button>
+                </div>
                 <p className="text-center mt-4">
                   Already have an Account <Link to="/sign-in">Login Here</Link>
                 </p>

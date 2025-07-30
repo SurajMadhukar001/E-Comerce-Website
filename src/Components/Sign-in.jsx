@@ -59,7 +59,7 @@ const SignIn = () => {
       <div className="container mt-5 mb-5">
         <div className="row justify-content-center">
           <div className="col-lg-4">
-            <div className="card p-3">
+            <div className="card p-3 bgimage1">
               <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                   <label for="exampleInputEmail1" class="form-label">
@@ -116,13 +116,14 @@ const SignIn = () => {
                     </div>
                   </div>
                 </div>
-
-                <button
-                  type="submit"
-                  className="btn btn-outline-warning w-100 btn-sm"
-                >
-                  Login Now
-                </button>
+                <div className="w-100 text-center">
+                  <button
+                    type="submit"
+                    className="btn btn-outline-dark w-75 rounded-4"
+                  >
+                    Login Now
+                  </button>
+                </div>
                 <p className="text-center mt-4">
                   Dont't have an Account{" "}
                   <Link to="/sign-up">Register Here</Link>

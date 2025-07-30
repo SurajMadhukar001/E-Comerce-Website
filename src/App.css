@@ -53,10 +53,6 @@ display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
-.pf:hover{
-    color: blue;
-    font-style: italic;
-}
 
 
 
@@ -64,20 +60,16 @@ display: block;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.ct:hover{
-    color: blue;
-    font-style: italic;
-}
+
+
 .wt{
       text-align: center;
     margin-right: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.wt:hover{
-     color: blue;
-    font-style: italic;
+
     
-}
+
 .sc > input{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 20px;
@@ -103,13 +95,31 @@ display: block;
 }
 .ft >p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 770px;
-    display: inline-block;
+    margin-left: 820px;
+    display: inline-block; 
     position: absolute;
-    margin-top: 60px;
+    margin-top: 40px;
+    
 }
 .lg1{
     display: inline-block;
-    margin-left: 675px;
-    margin-top: 30px;
+    margin-left: 745px;
+    margin-top: 20px;
+}
+.bgimage1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKBhbjX3ZUX6LtUfBJ6et2JcxAT61d1L-ozw&s');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.bgimage2{
+     background-image: url('https://c1.wallpaperflare.com/preview/854/542/555/clean-clean-background-blur-green.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.signlogo{
+    justify-content: space-between;
+
+}
+.mynav{
+    background-color:rgb(88, 31, 4);
 }

@@ -1,14 +1,14 @@
 import footerimage from "../assets/lo.jpg.png";
-import footerlogo from "../assets/lg1.png"
+import footerlogo from "../assets/lg1.png";
 const FooterComponent = () => {
   return (
     <>
       <footer className="bg-warning mt-4">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12">
               <img src={footerimage} alt="#" height={100} />
-              <span>
+              <span className="icon1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -51,9 +51,9 @@ const FooterComponent = () => {
                 </svg>
               </span>
             </div>
-            <div className="col-sm-3 text-dark ft">
-           <p>Created By Suraj Bairwa..</p>
-             <img src={footerlogo} className="w-50 lg1" alt="#" />
+            <div className="col-lg-2 text-dark ft">
+              <p> Created By Suraj Bairwa..</p>
+              <img src={footerlogo} className="w-50 lg1" alt="#" />
             </div>
           </div>
         </div>

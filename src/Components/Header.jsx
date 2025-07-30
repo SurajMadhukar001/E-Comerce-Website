@@ -1,15 +1,22 @@
 // import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import headerbanner from "../assets/hb.jpg";
-import headerimage from "../assets/lo.jpg.png"
+
+import headerimage from "../assets/lo.jpg.png";
+import image1 from "../assets/img1.jpg.webp";
+import image2 from "../assets/img2.jpg.webp";
+import image3 from "../assets/img3.jpg.webp";
+import image4 from "../assets/img4.jpg.webp";
+import image5 from "../assets/img5.jpg.webp";
+import image6 from "../assets/img6.jpg.webp";
+
 
 const HeaderComponent = () => {
   //calling store
   // const counterslice = useSelector((state)=>state.counter)
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-light sticky-top">
-        <div className="container-xxl">
+      <nav className="navbar navbar-expand-lg sticky-top mynav">
+        <div className="container-fluid">
           <img className="logo" src={headerimage} height={100} />
 
           <button
@@ -26,21 +33,20 @@ const HeaderComponent = () => {
           <div className="collapse navbar-collapse" id="navbarScroll">
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <Link className="nav-link home" aria-current="page" to="/">
+                <Link className="nav-link home text-light" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
               <li class="nav-item">
-                <Link className="nav-link about" to="/about">
+                <Link className="nav-link about text-light" to="/about">
                   About
                 </Link>
               </li>
               <li class="nav-item">
-                <Link className="nav-link category" to="/category">
+                <Link className="nav-link category text-light" to="/category">
                   Category
                 </Link>
               </li>
-              
             </ul>
 
             <div className="input-group ms-auto me-2 sc">
@@ -63,7 +69,7 @@ const HeaderComponent = () => {
                 </svg>
               </div>
             </div>
-            <div className="pf mt-1 ms-auto me-2">
+            <div className="pf mt-1 ms-3 me-2 text-light">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -76,7 +82,7 @@ const HeaderComponent = () => {
               </svg>
               <p>Profile</p>
             </div>
-            <div className="ct mt-1 me-2">
+            <div className="ct mt-1 ms-2 me-2 text-light">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -89,7 +95,7 @@ const HeaderComponent = () => {
               </svg>
               <p>Cart</p>
             </div>
-            <div className="wt mt-1">
+            <div className="wt mt-1 ms-3 text-light">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -102,14 +108,16 @@ const HeaderComponent = () => {
               </svg>
               <p>Wishlist</p>
             </div>
-
-            <div>
-           
+            <div className="col-lg-3">
               <Link to="/sign-in">
-                <button className="btn btn-outline-dark">Sign In</button>
+                <button className="btn btn-outline-light rounded-4">
+                  Sign In
+                </button>
               </Link>
               <Link to="/sign-up">
-                <button className="btn btn-outline-dark ms-2">Sign Up</button>
+                <button className="btn btn-outline-light rounded-4 ms-2">
+                  Sign Up
+                </button>
               </Link>
             </div>
           </div>
@@ -236,8 +244,90 @@ const HeaderComponent = () => {
           </ul>
         </li>
       </ul>
-      <div className="container-fluid">
-        <img src={headerbanner} className="w-100" alt="#" />
+    
+      <div
+        id="carouselExampleInterval"
+        className="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div className="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide-to="0"
+            className="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div className="carousel-item active" data-bs-interval="2000">
+            <img src={image1} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item" data-bs-interval="2000">
+            <img src={image2} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item" data-bs-interval="2000">
+            <img src={image3} className="d-block w-100" alt="..." />
+          </div>
+           <div className="carousel-item" data-bs-interval="2000">
+            <img src={image4} className="d-block w-100" alt="..." />
+          </div>
+           <div className="carousel-item" data-bs-interval="2000">
+            <img src={image5} className="d-block w-100" alt="..." />
+          </div>
+           <div className="carousel-item" data-bs-interval="2000">
+            <img src={image6} className="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
       </div>
     </>
   );
