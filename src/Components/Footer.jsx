@@ -51,9 +51,9 @@ const FooterComponent = () => {
               </svg>
             </div>
             <div className="col-lg-4 col-sm-4">
-              <p className="mt-4">
+              <p className="mt-5">
                 <img className="ms-1" src={footerlogo} alt="Logo" height={30} />
-                <span>Developed By Suraj Bairwa..</span>
+                <span className="pfs">Developed By Suraj Bairwa..</span>
               </p>
             </div>
           </div>

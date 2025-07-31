@@ -21,7 +21,7 @@ const HeaderComponent = () => {
           <img className="logo" src={headerimage} height={100} />
 
           <button
-            className="navbar-toggler"
+            className="navbar-toggler bg-light"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarScroll"
