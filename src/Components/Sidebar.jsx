@@ -38,13 +38,7 @@ Headphones
       </div> */}
    <div>
    <h1>Category</h1>
-     <ul>
-      <li>Headphones</li>
-      <li>Mobiles</li>
-      <li>Laptop</li>
-      <li>Refrigerator</li>
-         <li>Clothes</li>
-    </ul>
+     
    </div>
     </>
   );

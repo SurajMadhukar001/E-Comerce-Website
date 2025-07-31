@@ -95,15 +95,16 @@ display: block;
 }
 .ft >p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 820px;
+    /* margin-left: 800px; */
     display: inline-block; 
     position: absolute;
     margin-top: 40px;
+    font-size: 15px;
     
 }
 .lg1{
     display: inline-block;
-    margin-left: 745px;
+    /* margin-left: 720px; */
     margin-top: 20px;
 }
 .bgimage1{
@@ -123,3 +124,14 @@ display: block;
 .mynav{
     background-color:rgb(88, 31, 4);
 }
+.fttext{
+    color: #282c3f;
+    text-decoration: none;
+    background-color:transparent;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+    margin-top: 3px;
+    
+}
+

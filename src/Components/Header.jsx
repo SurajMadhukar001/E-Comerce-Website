@@ -2,12 +2,13 @@
 import { Link } from "react-router-dom";
 
 import headerimage from "../assets/lo.jpg.png";
-import image1 from "../assets/img1.jpg.webp";
+import image7 from "../assets/img7.jpg.webp";
 import image2 from "../assets/img2.jpg.webp";
 import image3 from "../assets/img3.jpg.webp";
 import image4 from "../assets/img4.jpg.webp";
-import image5 from "../assets/img5.jpg.webp";
+import image1 from "../assets/img1.jpg.webp";
 import image6 from "../assets/img6.jpg.webp";
+import image5 from "../assets/img5.jpg.webp";
 
 
 const HeaderComponent = () => {
@@ -16,7 +17,7 @@ const HeaderComponent = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg sticky-top mynav">
-        <div className="container-fluid">
+        <div className="container">
           <img className="logo" src={headerimage} height={100} />
 
           <button
@@ -108,7 +109,7 @@ const HeaderComponent = () => {
               </svg>
               <p>Wishlist</p>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-2">
               <Link to="/sign-in">
                 <button className="btn btn-outline-light rounded-4">
                   Sign In
@@ -292,7 +293,7 @@ const HeaderComponent = () => {
         </div>
         <div class="carousel-inner">
           <div className="carousel-item active" data-bs-interval="2000">
-            <img src={image1} className="d-block w-100" alt="..." />
+            <img src={image7} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item" data-bs-interval="2000">
             <img src={image2} className="d-block w-100" alt="..." />
@@ -304,10 +305,13 @@ const HeaderComponent = () => {
             <img src={image4} className="d-block w-100" alt="..." />
           </div>
            <div className="carousel-item" data-bs-interval="2000">
-            <img src={image5} className="d-block w-100" alt="..." />
+            <img src={image1} className="d-block w-100" alt="..." />
           </div>
            <div className="carousel-item" data-bs-interval="2000">
             <img src={image6} className="d-block w-100" alt="..." />
+          </div>
+           <div className="carousel-item" data-bs-interval="2000">
+            <img src={image5} className="d-block w-100" alt="..." />
           </div>
         </div>
         <button
